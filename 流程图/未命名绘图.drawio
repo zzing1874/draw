@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RQYkobvXV-19EqAcjDfM-34" value="报价模型训练成果" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFF7BC;strokeColor=#FFF7BC;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="354.5" width="220" height="295.5" as="geometry" />
+        </mxCell>
         <mxCell id="RQYkobvXV-19EqAcjDfM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RQYkobvXV-19EqAcjDfM-2" target="RQYkobvXV-19EqAcjDfM-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -80,27 +83,21 @@
           <mxGeometry x="501" y="373" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="RQYkobvXV-19EqAcjDfM-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=oval;endFill=0;" edge="1" parent="1" source="RQYkobvXV-19EqAcjDfM-5" target="RQYkobvXV-19EqAcjDfM-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RQYkobvXV-19EqAcjDfM-30" value="" style="swimlane;startSize=0;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="50" y="350" width="200" height="295" as="geometry">
-            <mxRectangle x="50" y="371" width="50" height="40" as="alternateBounds" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="536" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RQYkobvXV-19EqAcjDfM-32" value="报价模型训练成果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="RQYkobvXV-19EqAcjDfM-30">
-          <mxGeometry width="120" height="30" as="geometry" />
+        <mxCell id="RQYkobvXV-19EqAcjDfM-22" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;T 时刻行情数据的报价逻辑&lt;/font&gt;" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102" y="559" width="110" height="73.5" as="geometry" />
         </mxCell>
-        <mxCell id="RQYkobvXV-19EqAcjDfM-25" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;T-n 时刻行情数据的报价逻辑&lt;/font&gt;" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="RQYkobvXV-19EqAcjDfM-30">
-          <mxGeometry x="45" y="32" width="110" height="73.5" as="geometry" />
+        <mxCell id="RQYkobvXV-19EqAcjDfM-23" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;T-1 时刻行情数据的报价逻辑&lt;/font&gt;" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102" y="500" width="110" height="73.5" as="geometry" />
         </mxCell>
-        <mxCell id="RQYkobvXV-19EqAcjDfM-24" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;...&lt;/span&gt;" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="RQYkobvXV-19EqAcjDfM-30">
-          <mxGeometry x="45" y="91" width="110" height="73.5" as="geometry" />
+        <mxCell id="RQYkobvXV-19EqAcjDfM-24" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;...&lt;/span&gt;" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102" y="440" width="110" height="73.5" as="geometry" />
         </mxCell>
-        <mxCell id="RQYkobvXV-19EqAcjDfM-23" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;T-1 时刻行情数据的报价逻辑&lt;/font&gt;" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="RQYkobvXV-19EqAcjDfM-30">
-          <mxGeometry x="45" y="151" width="110" height="73.5" as="geometry" />
-        </mxCell>
-        <mxCell id="RQYkobvXV-19EqAcjDfM-22" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;T 时刻行情数据的报价逻辑&lt;/font&gt;" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="RQYkobvXV-19EqAcjDfM-30">
-          <mxGeometry x="45" y="210" width="110" height="73.5" as="geometry" />
+        <mxCell id="RQYkobvXV-19EqAcjDfM-25" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;T-n 时刻行情数据的报价逻辑&lt;/font&gt;" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102" y="381" width="110" height="73.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
